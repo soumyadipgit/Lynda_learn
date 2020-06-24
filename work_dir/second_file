@@ -1,2 +1,9 @@
-This is my second file.
-dding this line.
+import re
+import os
+for i in os.listdir("/"):
+  pattern=r".+\.tsv"
+  result=re.findall(pattern,i)
+  regex=[]
+if result Not in regex:
+  regex.append(result)
+  print(regex)
